@@ -78,8 +78,7 @@ p {
   line-height: 1.19;
   font-weight: var(--bold-font-weight);
   letter-spacing: 0.03em;
-  }
-
+}
 
 /*==================== Навігація загальний==================== */
 
@@ -132,7 +131,6 @@ ol {
   line-height: 1.38;
 }
 
-
 .navigation-list .navigation-link {
   display: block;
   padding-top: 32px;
@@ -144,11 +142,11 @@ ol {
 }
 
 .studio {
-  color: var(--accent-color)
+  color: var(--accent-color);
 }
 
 .portfolio {
-  color: var(--accent-color)
+  color: var(--accent-color);
 }
 
 .navigation-link-adress:hover,
@@ -175,7 +173,7 @@ ol {
 
 /* section my work on portfolio */
 .my-work {
-padding: 94px 15px;
+  padding: 94px 15px;
 }
 
 /* ============Портфоліо Секція button============ */
@@ -214,7 +212,6 @@ padding: 94px 15px;
 
 /* < !-- Портфоліо Секція зі зразками роботи в картинках --> */
 
-
 .my-work-list {
   display: flex;
   flex-wrap: wrap;
@@ -237,7 +234,7 @@ padding: 94px 15px;
   margin-bottom: 4px;
   font-weight: 700;
   letter-spacing: 0.06em;
- }
+}
 
 .my-work-text {
   color: var(--primary-text-color);
@@ -250,12 +247,9 @@ padding: 94px 15px;
   display: flex;
 }
 
-
 .my-work-item:not(:nth-child(3n)) {
   margin-right: 30px;
 }
-
-
 
 .my-work-item:not(:nth-last-child(-n + 3)) {
   margin-bottom: 30px;
@@ -263,7 +257,7 @@ padding: 94px 15px;
 
 .description-my-work {
   padding: 20px 24px;
-  }
+}
 
 /* ===============Герой=============== */
 
@@ -413,8 +407,7 @@ img {
   padding-top: 30px;
   padding-bottom: 30px;
   background-color: var(--primary-white-color);
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 
-  0px 1px 1px rgba(0, 0, 0, 0.14),
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
@@ -453,7 +446,6 @@ img {
   font-family: var(--text-logo);
 }
 
-
 /* ===============================кінець лого============== */
 
 .footer-contacts-link {
@@ -469,7 +461,6 @@ img {
 .footer-contacts-mail:not(:last-child) {
   margin-bottom: 9px;
 }
-
 
 .asr {
   color: #ffffff;

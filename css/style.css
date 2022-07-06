@@ -149,6 +149,9 @@ ol {
   color: var(--accent-color);
 }
 
+.kontaktu {
+    color: var(--accent-color);
+}
 .navigation-link-adress:hover,
 .navigation-link-adress:focus {
   color: var(--accent-color);
@@ -473,4 +476,14 @@ img {
 .footer-contacts {
   display: flex;
   flex-direction: column;
+}
+
+.class-sofi {
+  color: aqua;
+    display: flex;
+    margin-top: 150px;
+    font-size: 80px;
+    font-style: normal;
+    padding: 60px 20px;
+    text-align: center;
 }

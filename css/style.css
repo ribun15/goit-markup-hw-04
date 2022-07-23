@@ -108,14 +108,13 @@ ol {
   align-items: center;
 }
 
-.navigation-link {
-  color: var(--black-color);
-}
-
 .navigation-link:hover,
 .navigation-link:focus {
-  color: var(--accent-color);
+  background-color: var(--accent-color);
+  color: var(--primary-white-color);
 }
+
+
 
 .navigation-list-item:not(:last-child),
 .contacts-list-item:not(:last-child) {
@@ -142,20 +141,17 @@ ol {
 }
 
 .studio {
-  color: var(--accent-color);
+  color: var(--black-color);
 }
 
 .portfolio {
-  color: var(--accent-color);
+  color: var(--black-color:);
 }
 
 .kontaktu {
-    color: var(--accent-color);
+    color: var(--black-color:);
 }
-.navigation-link-adress:hover,
-.navigation-link-adress:focus {
-  color: var(--accent-color);
-}
+
 
 .navigation-contact {
   display: flex;
@@ -180,6 +176,7 @@ ol {
 }
 
 /* ============Портфоліо Секція button============ */
+
 .list-button list {
   display: flex;
 }

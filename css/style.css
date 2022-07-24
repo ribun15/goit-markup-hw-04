@@ -108,12 +108,13 @@ ol {
   align-items: center;
 }
 
+
+
+
 .navigation-link:hover,
 .navigation-link:focus {
-  background-color: var(--accent-color);
-  color: var(--primary-white-color);
-}
-
+  color: #188ce8;
+ }
 
 
 .navigation-list-item:not(:last-child),

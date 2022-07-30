@@ -113,12 +113,13 @@ ol {
 
 .navigation-link:hover,
 .navigation-link:focus {
-  color: ;
-  
+  color:#2196f3;
+  }
 
+.navigation-link-adress:hover,
+.navigation-link-adress:focus {
+  color: #2196f3;
 }
-
-
 
 
 .navigation-list-item:not(:last-child),

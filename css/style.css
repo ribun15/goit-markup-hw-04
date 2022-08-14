@@ -13,6 +13,17 @@
   --medium-font-weight: 500;
   --primery-letter-spacing: 0.03em;
 }
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+
 
 a {
   text-decoration: none;
@@ -100,15 +111,14 @@ ol {
 .container {
   width: 1200px;
   margin: 0 auto;
-  padding: 0 15px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .navigation {
   display: flex;
   align-items: center;
 }
-
-
 
 
 .navigation-link:hover,
@@ -150,14 +160,13 @@ ol {
   color: var(--black-color);
 }
 
-.portfolio {
+.kontaktu {
   color: var(--black-color);
 }
 
-.kontaktu {
-    color: var(--black-color);
+.portfolio {
+  color: var(--black-color);
 }
-
 
 .navigation-contact {
   display: flex;
@@ -176,93 +185,8 @@ ol {
   padding-bottom: 32px;
 }
 
-/* section my work on portfolio */
-.my-work {
-  padding: 94px 15px;
-}
-
-/* ============Портфоліо Секція button============ */
-
-.list-button list {
-  display: flex;
-}
-
-.list-button {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 50px;
-}
-
-.button-item:not(:last-child) {
-  margin-right: 8px;
-}
-
-.button-title:hover,
-.button-title:focus {
-  background-color: var(--accent-color);
-  color: var(--primary-white-color);
-}
-
-.button-title {
-  background-color: var(--secondary-background-color);
-  line-height: 1.875;
-  letter-spacing: 0.06em;
-  min-width: 73px;
-  height: 38px;
-  border: none;
-  border-radius: 4px;
-  padding: 6px 22px;
-  cursor: pointer;
-}
-
-/* < !-- Портфоліо Секція зі зразками роботи в картинках --> */
-
-.my-work-list {
-  display: flex;
-  flex-wrap: wrap;
-  margin: -15px;
-}
-
-.my-work-item {
-  width: 370px;
-}
-
-.list {
-  list-style: none;
-}
-
-.my-work-title {
-  color: var(--secondary-text-color);
-  font-size: 18px;
-  line-height: 2;
-  margin: 0;
-  margin-bottom: 4px;
-  font-weight: 700;
-  letter-spacing: 0.06em;
-}
-
-.my-work-text {
-  color: var(--primary-text-color);
-  font-weight: var(--regular-font-weight);
-  font-size: 16px;
-  line-height: 1.87;
-}
-
-.my-work-list {
-  display: flex;
-}
-
-.my-work-item:not(:nth-child(3n)) {
-  margin-right: 30px;
-}
-
-.my-work-item:not(:nth-last-child(-n + 3)) {
-  margin-bottom: 30px;
-}
-
-.description-my-work {
-  padding: 20px 24px;
+.navigation-link-adress:hover, {
+  color: #2196F3;
 }
 
 /* ===============Герой=============== */
@@ -306,8 +230,35 @@ ol {
   background-color: var(--accent-color);
 }
 
-/*=========================Секція з текстом========== */
+/*=========================Секція з іконками про переваги 4 шт========== */
+   
+.features-list-4 {
+  display: flex;
+  align-items: center;
+  margin-top: 94px;
+  margin-bottom: 30px;
+  
+}
 
+
+
+
+.item-bnf:not(:last-child) {
+  margin-right: 30px;
+}
+
+
+ 
+.item-bnf {
+background: #F5F4FA;
+border-radius: 4px; 
+width: 270px;
+height: 120px;
+  
+}
+
+
+/*=======Секція з текстом про переваги 4 шт=== */
 .features-list {
   display: flex;
   align-items: center;
@@ -322,7 +273,7 @@ ol {
 }
 
 .features {
-  padding-top: 94px;
+  padding-top: 0px;
   padding-bottom: 94px;
 }
 
@@ -437,6 +388,94 @@ img {
   letter-spacing: 0.03em;
 }
 
+/* section my work on portfolio */
+.my-work {
+  padding: 94px 15px;
+}
+
+/* ============Портфоліо Секція button============ */
+
+.list-button list {
+  display: flex;
+}
+
+.list-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.button-item:not(:last-child) {
+  margin-right: 8px;
+}
+
+.button-title:hover,
+.button-title:focus {
+  background-color: var(--accent-color);
+  color: var(--primary-white-color);
+}
+
+.button-title {
+  background-color: var(--secondary-background-color);
+  line-height: 1.875;
+  letter-spacing: 0.06em;
+  min-width: 73px;
+  height: 38px;
+  border: none;
+  border-radius: 4px;
+  padding: 6px 22px;
+  cursor: pointer;
+}
+
+/* < !-- Портфоліо Секція зі зразками роботи в картинках --> */
+
+.my-work-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -15px;
+}
+
+.my-work-item {
+  width: 370px;
+}
+
+.list {
+  list-style: none;
+}
+
+.my-work-title {
+  color: var(--secondary-text-color);
+  font-size: 18px;
+  line-height: 2;
+  margin: 0;
+  margin-bottom: 4px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+}
+
+.my-work-text {
+  color: var(--primary-text-color);
+  font-weight: var(--regular-font-weight);
+  font-size: 16px;
+  line-height: 1.87;
+}
+
+.my-work-list {
+  display: flex;
+}
+
+.my-work-item:not(:nth-child(3n)) {
+  margin-right: 30px;
+}
+
+.my-work-item:not(:nth-last-child(-n + 3)) {
+  margin-bottom: 30px;
+}
+
+.description-my-work {
+  padding: 20px 24px;
+}
 /* ===========================footer======================== */
 .footer-icon {
   margin-bottom: 20px;
@@ -481,12 +520,5 @@ img {
   flex-direction: column;
 }
 
-.class-sofi {
-  color: aqua;
-    display: flex;
-    margin-top: 150px;
-    font-size: 80px;
-    font-style: normal;
-    padding: 60px 20px;
-    text-align: center;
-}
+
+

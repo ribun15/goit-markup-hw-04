@@ -123,7 +123,7 @@ ol {
 
 .navigation-link:hover,
 .navigation-link:focus {
-  color:#2196f3;
+   color:#2196f3;
   }
 
 .navigation-link-adress:hover,
@@ -132,10 +132,7 @@ ol {
 }
 
 
-.navigation-list-item:not(:last-child),
-.contacts-list-item:not(:last-child) {
-  margin-right: 50px;
-}
+
 
 .navigation-list {
   list-style: none;
@@ -174,6 +171,11 @@ ol {
   margin-left: auto;
 }
 
+.navigation-list-item:not(:last-child),
+.contacts-list-item:not(:last-child) {
+  margin-right: 50px;
+}
+
 .navigation-link-adress {
   display: block;
   font-weight: var(--medium-font-weight);
@@ -185,9 +187,27 @@ ol {
   padding-bottom: 32px;
 }
 
+.contacts-list-item {
+  display: inline-flex;
+}
+
 .navigation-link-adress:hover, {
   color: #2196F3;
 }
+
+.phone-ico {
+display: inline-block;
+fill: currentColor;
+margin-right: 10px;
+padding: 0px;
+vertical-align: middle;
+}
+
+
+
+
+
+
 
 /* ===============Герой=============== */
 
@@ -234,19 +254,11 @@ ol {
    
 .features-list-4 {
   display: flex;
-  align-items: center;
   margin-top: 94px;
   margin-bottom: 30px;
   
+  
 }
-
-
-
-
-.item-bnf:not(:last-child) {
-  margin-right: 30px;
-}
-
 
  
 .item-bnf {
@@ -254,9 +266,23 @@ background: #F5F4FA;
 border-radius: 4px; 
 width: 270px;
 height: 120px;
-  
+align-items: center;
 }
 
+
+.item-bnf:not(:last-child) {
+  margin-right: 30px;
+}
+
+.letter-ico {
+
+  display: block;
+  content: "";
+  margin-top: 25px;
+  margin-left: 102px;
+
+  
+}
 
 /*=======Секція з текстом про переваги 4 шт=== */
 .features-list {

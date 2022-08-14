@@ -151,6 +151,8 @@ ol {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  margin-right: 50px;
+
 }
 
 .studio {
@@ -171,10 +173,10 @@ ol {
   margin-left: auto;
 }
 
-.navigation-list-item:not(:last-child),
+
 .contacts-list-item:not(:last-child) {
-  margin-right: 50px;
-}
+  margin-right: 30px;
+} 
 
 .navigation-link-adress {
   display: block;
@@ -202,10 +204,6 @@ margin-right: 10px;
 padding: 0px;
 vertical-align: middle;
 }
-
-
-
-
 
 
 

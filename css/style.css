@@ -208,6 +208,11 @@ vertical-align: middle;
 
 
 /* ===============Герой=============== */
+.hero {
+  padding-top: 200px;
+  padding-bottom: 200px;
+  text-align: center;
+}
 
 .hero-title {
   margin-bottom: 30px;
@@ -220,12 +225,6 @@ vertical-align: middle;
   color: var(--primary-white-color);
 }
 
-.hero {
-  padding-top: 200px;
-  padding-bottom: 200px;
-  text-align: center;
-  background: var(--primary-background-color);
-}
 
 .hero-button:hover,
 .hero-button:focus {
@@ -247,6 +246,15 @@ vertical-align: middle;
   color: var(--primary-white-color);
   background-color: var(--accent-color);
 }
+/*============ hero foto ===========*/
+
+
+ .img-people {  
+  background-image: url("/img/img.people.jpg");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  }
+
 
 /*=========================Секція з іконками про переваги 4 шт========== */
    
@@ -273,7 +281,6 @@ align-items: center;
 }
 
 .letter-ico {
-
   display: block;
   content: "";
   margin-top: 25px;
@@ -411,6 +418,23 @@ img {
   line-height: 1.19;
   letter-spacing: 0.03em;
 }
+
+/* Наша команда секція з іконками соцмереж */
+
+
+
+dfgb.bjkhdfkjgbdflkjg
+dxklfjbgvjhfgbv
+
+
+
+
+
+
+
+
+
+
 
 /* section my work on portfolio */
 .my-work {

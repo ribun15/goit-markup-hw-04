@@ -253,6 +253,7 @@ vertical-align: middle;
   background-image: url("/img/img.people.jpg");
   background-repeat: no-repeat;
   background-position: 50% 50%;
+  Fill: Solid #C4C4C4;
   }
 
 
@@ -422,12 +423,39 @@ img {
 /* Наша команда секція з іконками соцмереж */
 
 
+.list-icon-social {
+  display: inline-flex;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+  }
 
-dfgb.bjkhdfkjgbdflkjg
-dxklfjbgvjhfgbv
+
+.list-item-svg {
+  margin-top: 16px;
+  padding: 12px;
+  border-radius: 50%;
+  border: 1px solid greenyellow;
+ }
 
 
 
+
+
+
+
+
+
+
+
+
+.svg-ico{
+ Fill: #AFB1B8;
+ 
+}
 
 
 

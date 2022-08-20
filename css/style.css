@@ -249,7 +249,8 @@ vertical-align: middle;
 /*============ hero foto ===========*/
 
 
- .img-people {  
+ .img-people::before {
+  content: '';  
   background-image: url("/img/img.people.jpg");
   background-repeat: no-repeat;
   background-position: 50% 50%;

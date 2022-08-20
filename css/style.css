@@ -249,8 +249,7 @@ vertical-align: middle;
 /*============ hero foto ===========*/
 
 
- .img-people::before {
-  content: '';  
+ .img-people {  
   background-image: url("/img/img.people.jpg");
   background-repeat: no-repeat;
   background-position: 50% 50%;
@@ -423,7 +422,6 @@ img {
 
 /* Наша команда секція з іконками соцмереж */
 
-
 .list-icon-social {
   display: inline-flex;
   margin: 0;
@@ -432,30 +430,30 @@ img {
   align-items: center;
   gap: 10px;
   text-decoration: none;
+
+  border: 1px solid red
   }
 
 
 .list-item-svg {
-  margin-top: 16px;
-  padding: 12px;
-  border-radius: 50%;
   border: 1px solid greenyellow;
  }
 
 
+.link-icon-svg {
+  width: 44px;
+    height: 44px;
+    border-radius: 50%;
 
-
-
-
-
-
-
-
+    /* border: 1px solid rgb(4, 0, 255) */
+}
 
 
 .svg-ico{
  Fill: #AFB1B8;
- 
+display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 

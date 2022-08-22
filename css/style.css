@@ -265,7 +265,11 @@ vertical-align: middle;
   margin-bottom: 30px;  
 }
 
- 
+ .letter-ico {
+  display: block;
+  margin-top: 25px;
+  margin-left: 102px; 
+}
 .item-bnf {
 background: #F5F4FA;
 border-radius: 4px; 
@@ -279,11 +283,7 @@ align-items: center;
   margin-right: 30px;
 }
 
-.letter-ico {
-  display: block;
-  margin-top: 25px;
-  margin-left: 102px; 
-}
+
 
 /*=======Секція з текстом про переваги 4 шт=== */
 .features-list {
@@ -425,8 +425,6 @@ img {
 }
 
 
-
-
 .link-icon-svg {
     width: 44px;
     height: 44px;
@@ -443,17 +441,6 @@ img {
     background-color: #188ce8;
     fill: rgb(255, 255, 255);6
     }
-
-
-
-
-
-
-
-
-
-
-
 
 
 

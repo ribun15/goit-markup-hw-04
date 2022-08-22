@@ -262,9 +262,7 @@ vertical-align: middle;
 .features-list-4 {
   display: flex;
   margin-top: 94px;
-  margin-bottom: 30px;
-  
-  
+  margin-bottom: 30px;  
 }
 
  
@@ -283,11 +281,8 @@ align-items: center;
 
 .letter-ico {
   display: block;
-  content: "";
   margin-top: 25px;
-  margin-left: 102px;
-
-  
+  margin-left: 102px; 
 }
 
 /*=======Секція з текстом про переваги 4 шт=== */
@@ -424,37 +419,36 @@ img {
 
 .list-icon-social {
   display: inline-flex;
-  margin: 0;
-  padding: 0;
-  justify-content: center;
-  align-items: center;
   gap: 10px;
-  text-decoration: none;
+  margin-top: 16px;
+  margin-bottom: 0;
+}
 
-  border: 1px solid red
-  }
 
-
-.list-item-svg {
-  border: 1px solid greenyellow;
- }
 
 
 .link-icon-svg {
-  width: 44px;
+    width: 44px;
     height: 44px;
     border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    Fill: #AFB1B8;
 
-    /* border: 1px solid rgb(4, 0, 255) */
 }
 
+    .link-icon-svg:hover,
+    .link-icon-svg:focus {
+    background-color: #188ce8;
+    fill: rgb(255, 255, 255);6
+    }
 
-.svg-ico{
- Fill: #AFB1B8;
-display: flex;
-  justify-content: center;
-  align-items: center;
-}
+
+
+
+
+
 
 
 

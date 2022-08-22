@@ -193,9 +193,6 @@ ol {
   display: inline-flex;
 }
 
-.navigation-link-adress:hover, {
-  color: #2196F3;
-}
 
 .phone-ico {
 display: inline-block;
@@ -250,10 +247,11 @@ vertical-align: middle;
 
 
  .img-people {  
-  background-image: url("/img/img.people.jpg");
+  background-image: url("/img/img.people.png");
   background-repeat: no-repeat;
   background-position: 50% 50%;
   Fill: Solid #C4C4C4;
+
   }
 
 

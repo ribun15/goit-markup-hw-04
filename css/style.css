@@ -444,14 +444,12 @@ img {
 
 /* =============Постійні клієнти=============  */
 
-
 .partners 
   { 
     display: flex;
     padding-top: 94px;
     padding-bottom: 94px;
-    border: 5px solid black;
-    }
+       }
 
 
 .our-partner1 {
@@ -462,15 +460,7 @@ img {
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
-
-
-
 }
-
-
-
-
-
 
 .partners-list {
   gap: 30px;
@@ -493,41 +483,10 @@ img {
   fill: #AFB1B8;
 }
 
-
-
 .partner-link .partners-ico:hover, 
 .partner-link .partners-ico:focus {
   fill: var(--accent-color);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

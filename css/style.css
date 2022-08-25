@@ -437,8 +437,97 @@ img {
     .link-icon-svg:hover,
     .link-icon-svg:focus {
     background-color: #188ce8;
-    fill: rgb(255, 255, 255);6
+    fill: rgb(255, 255, 255);
     }
+
+
+
+/* =============Постійні клієнти=============  */
+
+
+.partners 
+  { 
+    display: flex;
+    padding-top: 94px;
+    padding-bottom: 94px;
+    border: 5px solid black;
+    }
+
+
+.our-partner1 {
+  margin-bottom: 50px;
+  color: var(--secondary-text-color);
+  font-weight: var(--bold-font-weight);
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+
+
+}
+
+
+
+
+
+
+.partners-list {
+  gap: 30px;
+  display: flex;
+}
+
+.partners-item {
+  box-sizing: border-box;
+  display: inline-flex;
+  width: 170px;
+  height: 92px;
+  border: 1px solid #AFB1B8;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.partners-ico {
+  border: 1px solidred;
+  fill: #AFB1B8;
+}
+
+
+
+.partner-link .partners-ico:hover, 
+.partner-link .partners-ico:focus {
+  fill: var(--accent-color);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -573,6 +662,3 @@ img {
   display: flex;
   flex-direction: column;
 }
-
-
-

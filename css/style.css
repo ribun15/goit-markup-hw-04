@@ -444,13 +444,11 @@ img {
 
 /* =============Постійні клієнти=============  */
 
-.partners 
-  { 
+.partners   { 
     display: flex;
     padding-top: 94px;
     padding-bottom: 94px;
        }
-
 
 .our-partner1 {
   margin-bottom: 50px;
@@ -462,38 +460,40 @@ img {
   letter-spacing: 0.03em;
 }
 
-.partners-list {
-  gap: 30px;
+.partners-list { 
   display: flex;
+  gap: 30px;
 }
 
 .partners-item {
-  box-sizing: border-box;
+  box-sizing: content-box;
   display: inline-flex;
-  width: 170px;
-  height: 92px;
-  border: 1px solid #AFB1B8;
-  align-items: center;
+  }
+
+.partner-link {
+  box-sizing: border-box;
+  display: flex;
   justify-content: center;
+  align-items: center;
+    border-radius: 4px;
+      /* border: 1px solid #AFB1B8; */
+    width: 172px;
+    height: 92px;
+    fill: #AFB1B8;
+      border: 1px solid #AFB1B8;
 }
 
-
-.partners-ico {
-  border: 1px solidred;
-  fill: #AFB1B8;
-}
-
-.partner-link .partners-ico:hover, 
-.partner-link .partners-ico:focus {
+.partner-link:hover, 
+.partner-link:focus {
   fill: var(--accent-color);
+  border-color: #188ce8;
 }
-
-
 
 /* section my work on portfolio */
 .my-work {
   padding: 94px 15px;
 }
+
 
 /* ============Портфоліо Секція button============ */
 
@@ -633,4 +633,31 @@ img {
 
 
 /* --------------------------------------------------------------- */
+.nazar {
+  display: flex;
+  width: 500px;
+  height: 500px;
+  color: red;
+  border: 30px solid green;
+   align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
 
+
+.zak{
+  display: flex;
+  color: red;
+  text-align: center;
+ box-sizing: border-box;
+ padding: 20px;
+ border-radius: 50px;
+ border: 10px solid rgb(255, 213, 27);
+padding: 50px;
+}
+
+.zak:hover {
+color: rgb(226, 214, 47);
+border: 10px solid rebeccapurple;
+background-color: #460fdc;
+}

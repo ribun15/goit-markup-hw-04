@@ -250,7 +250,6 @@ vertical-align: middle;
   background-image: url("/img/people-foto.jpg");
   background-repeat: no-repeat;
   background-position: 50% 50%;
-  Fill: Solid #C4C4C4;
 
   }
 
@@ -268,6 +267,7 @@ vertical-align: middle;
   margin-top: 25px;
   margin-left: 102px; 
 }
+
 .item-bnf {
 background: #F5F4FA;
 border-radius: 4px; 
@@ -475,7 +475,7 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-    border-radius: 4px;
+  border-radius: 4px;
   width: 172px;
   height: 92px;
   fill: #AFB1B8;
@@ -621,42 +621,53 @@ img {
   flex-direction: column;
 }
 
+
+
+/* ---------------------Приєднуйтесь+іконки------------------------------ */
+
+
 .footer-ico {
-  display: block;
+display: inline-flex;
+flex-direction: column;
+margin: 70px;
+padding: 0;
 }
 
 
+.text-join {
+color: #FFFFFF;
+font-size: 14px;
+padding-bottom: 20px;
+margin-right: auto;
+}
 
 
-
-
-
-/* --------------------------------------------------------------- */
-.nazar {
-  display: flex;
-  width: 500px;
-  height: 500px;
-  color: red;
-  border: 30px solid green;
-   align-items: center;
-  justify-content: center;
+.link-icon-svg-footer {
+  width: 44px;
+  height: 44px;
   border-radius: 50%;
-}
-
-
-.zak{
   display: flex;
-  color: red;
-  text-align: center;
- box-sizing: border-box;
- padding: 20px;
- border-radius: 50px;
- border: 10px solid rgb(255, 213, 27);
-padding: 50px;
+  justify-content: center;
+  align-items: center;
+  Fill: #AFB1B8;
+  background-color: rgba(255, 255, 255, 0.1);
+  
+
 }
 
-.zak:hover {
-color: rgb(226, 214, 47);
-border: 10px solid rebeccapurple;
-background-color: #460fdc;
+.link-icon-svg-footer:hover,
+.link-icon-svg-footer:focus {
+  background-color: #188ce8;
+  fill: rgb(255, 255, 255);
 }
+
+.list-icon-footer {
+  display: inline-flex;
+  gap: 10px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+
+
+

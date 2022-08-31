@@ -247,10 +247,9 @@ vertical-align: middle;
 
 
  .img-people {  
-  background-image: url("/img/people-foto.jpg");
+  background-image: url("../img/people-foto.jpg");
   background-repeat: no-repeat;
   background-position: 50% 50%;
-  background-color: #000000;
   }
 
 
